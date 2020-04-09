@@ -12,7 +12,7 @@ ConnectFour depends on `ncurses`, it's used to show cute things on the terminal.
 | Windows | [Cygwin](https://www.cygwin.com/) `ncurses` and `libiconv` |
 
 ### Game
-Move cursor with `LEFT` and `RIGHT` Key
-Set Token with `ENTER`
-Leave the game with `Q` or `q`
-Start a new game wiht `Y` or `y`
+* Move cursor with `LEFT` and `RIGHT` Key
+* Set Token with `ENTER`
+* Leave the game with `Q` or `q`
+* Start a new game wiht `Y` or `y`
