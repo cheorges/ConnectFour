@@ -22,7 +22,7 @@ void Game::changeActivePlayer() {
 bool Game::hasConnectedFour() {
     Player* activePlayer = evaluateActivePlayer();
     if(field.hasConnectedFour(activePlayer)) {
-        activePlayer->incrementScore();
+        ++*activePlayer;
         return true;
     }
     changeActivePlayer();

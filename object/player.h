@@ -15,6 +15,7 @@ public:
     Token getToken() { return token; }
     bool isActive() { return active; }
     void toggleActive() { active = !active; };
+    int operator ++ () { return ++score; };
     void incrementScore() { score++; }
     int getScore() { return score; }
 };
